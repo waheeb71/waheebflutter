@@ -1,0 +1,48 @@
+name: chatapp
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  flutter_svg:
+  #emoji_picker: # تمت إزالة هذه الحزمة
+  shared_preferences:
+  camera:
+  path_provider:
+  path:
+  video_player:
+  socket_io_client:
+  emoji_picker_flutter:
+  intl:
+  cloud_firestore:
+  firebase_auth:
+  firebase_core:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-SemiBold.ttf
+        - asset: fonts/OpenSans-Italic.ttf
+          style: italic
